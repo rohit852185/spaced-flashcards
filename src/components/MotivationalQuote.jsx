@@ -66,11 +66,16 @@ const MotivationalQuote = () => {
         <img
           src={quote.image}
           alt="Motivational"
-          className="w-full max-w-4xl rounded-3xl shadow-2xl mb-10"
+          className="w-full max-w-xl rounded-3xl shadow-2xl mb-8"
         />
-        <blockquote className="text-4xl font-bold text-gray-800 dark:text-white max-w-4xl leading-relaxed">
+        <blockquote className="text-3xl font-bold text-gray-800 dark:text-white max-w-4xl leading-relaxed mb-6">
           “{quote.text}”
         </blockquote>
+
+        {/* Project Description Link */}
+        <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl">
+          📘 <strong>StudyNav:</strong> Organize your studies with spaced repetition flashcards, subjects, notes, reminders, and more – all in one place. Select a feature from the sidebar to begin!
+        </p>
       </div>
     </div>
   );
