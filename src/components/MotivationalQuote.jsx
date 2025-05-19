@@ -63,19 +63,20 @@ const MotivationalQuote = () => {
 
       {/* Quote Section */}
       <div className="relative z-10 flex flex-col justify-center items-center min-h-screen text-center px-6 py-20">
+        {/* Project Description Link */}
+        <p className="text-lg font-bold text-gray-900 dark:text-white max-w-3xl mb-6">
+          📘 StudyNav: Organize your studies with spaced repetition flashcards, subjects, notes, reminders, and more – all in one place. Select a feature from the sidebar to begin!
+        </p>
+
         <img
           src={quote.image}
           alt="Motivational"
           className="w-full max-w-xl rounded-3xl shadow-2xl mb-8"
         />
+
         <blockquote className="text-3xl font-bold text-gray-800 dark:text-white max-w-4xl leading-relaxed mb-6">
           “{quote.text}”
         </blockquote>
-
-        {/* Project Description Link */}
-        <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl">
-          📘 <strong>StudyNav:</strong> Organize your studies with spaced repetition flashcards, subjects, notes, reminders, and more – all in one place. Select a feature from the sidebar to begin!
-        </p>
       </div>
     </div>
   );
